@@ -18,9 +18,9 @@ portaudio19-dev iptables wsjtx wsjtx-data wsjtx-doc fldigi \
 libhamlib-* deepin-icon-theme deepin-terminal nemo-python bibata-cursor-theme -y
 #
 sudo raspi-config nonint do_boot_behaviour B4
-sudo cd /home
+cd /home
 # pi's preconfigured desktop
-sudo tar -zxvf /home/pi/cinnamon-desktop/pi.tgz
+tar -zxvf pi/cinnamon-desktop/pi.tgz
 # install some background images 
 cd
 unzip -o cinnamon-desktop/Backgrounds
